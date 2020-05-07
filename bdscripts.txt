@@ -1,0 +1,51 @@
+-- Database: Bank
+
+-- DROP DATABASE "Bank";
+
+CREATE DATABASE "Bank"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Russian_Russia.1251'
+    LC_CTYPE = 'Russian_Russia.1251'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+
+-- Table: public.accounts
+
+-- DROP TABLE public.accounts;
+
+CREATE TABLE public.accounts
+(
+    money double precision NOT NULL,
+    status character varying COLLATE pg_catalog."default" NOT NULL,
+    accountid character varying COLLATE pg_catalog."default" NOT NULL,
+    email character varying COLLATE pg_catalog."default" NOT NULL
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.accounts
+    OWNER to postgres;
+
+COMMENT ON COLUMN public.accounts.status
+    IS 'closed/open';
+
+-- Table: public.users
+
+-- DROP TABLE public.users;
+
+CREATE TABLE public.users
+(
+    id numeric NOT NULL DEFAULT nextval('users_id_seq'::regclass),
+    name character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    email character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    password character varying COLLATE pg_catalog."default",
+    salt character varying COLLATE pg_catalog."default",
+    CONSTRAINT users_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.users
+    OWNER to postgres;

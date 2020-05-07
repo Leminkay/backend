@@ -1,0 +1,9 @@
+E:\proga\backende\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.deps.json
+E:\proga\backende\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.dll
+E:\proga\backende\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.pdb
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.csprojAssemblyReference.cache
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.csproj.CoreCompileInputs.cache
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfoInputs.cache
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfo.cs
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.dll
+E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.pdb

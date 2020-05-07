@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/kal/.dotnet/store/|arch|/|tfm|",
+      "/home/kal/.nuget/packages"
+    ]
+  }
+}
