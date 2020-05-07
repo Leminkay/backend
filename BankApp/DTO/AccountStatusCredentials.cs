@@ -1,7 +1,12 @@
-﻿namespace BankApp.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace BankApp.DTO
 {
-    public class AccCredentials
+    public class AccountStatusCredentials
     {
-        
+        [Required]
+        public string Id { get; set; }
+        [Required]
+        public  string Status { get; set; }
     }
 }

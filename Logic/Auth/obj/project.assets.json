@@ -5417,11 +5417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj",
+      "projectUniqueName": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj",
       "projectName": "Auth",
-      "projectPath": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj",
+      "projectPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj",
       "packagesPath": "C:\\Users\\lemin\\.nuget\\packages\\",
-      "outputPath": "E:\\proga\\backende\\Logic\\Auth\\obj\\",
+      "outputPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lemin\\AppData\\Roaming\\NuGet\\NuGet.Config",

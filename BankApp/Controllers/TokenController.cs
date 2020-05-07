@@ -29,6 +29,7 @@ namespace BankApp.Controllers
         [HttpPost]
         public IActionResult Get([FromBody] UserCredentials user)
         {
+            
             if (_service.IsValidUser(user.Username, user.Password))
             {
                 var authClaims = new[]
@@ -53,6 +54,7 @@ namespace BankApp.Controllers
             }
 
             return new UnauthorizedResult();
+            
 
         }
         

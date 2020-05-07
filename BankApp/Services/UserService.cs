@@ -1,17 +1,31 @@
 ﻿
+using BankApp.Repository;
+using Microsoft.Extensions.Configuration;
+
 namespace Auth
 {
     public interface IUserService
     {
-        bool IsValidUser(string username, string password, string salt);
+        bool IsValidUser(string email, string password);
     }
     public class UserService : IUserService
     {
+        private readonly UserRepository userRepository;
 
-        public bool IsValidUser(string username, string password,string salt)
+        public UserService(IConfiguration configuration)
         {
+            userRepository = new UserRepository(configuration);
+        }
+
+        public bool IsValidUser(string email, string password)
+        {
+            var account = userRepository.FindByEmail(email);
+            if (account == null)
+            {
+                return false;
+            }
             
-            return Password.CheckPassword(password, salt, password);
+            return Password.CheckPassword(password, account.Salt, account.Password);
         }
     }
 }

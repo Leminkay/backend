@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lawmC433Ys8spIPemD+aYSUlO7gcXsk39t03qQSGyb+8+xn9v9E/yKgZsKVFuaTjVTSqxwWWOk0zj4JAHAbohQ==",
+  "dgSpecHash": "AqMPId3GiRBpw6eI4Eg716RtB7nUdiVy/nMn2zZssxLqHu28WTf0jDuvUrEb/2KZQCaZc1W2z2Xv/gXX7+3k0w==",
   "success": true,
-  "projectFilePath": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj",
+  "projectFilePath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lemin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\lemin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

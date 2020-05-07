@@ -8,7 +8,7 @@ namespace Auth
     {
         public Password(string password)
         {
-            byte[] saltBytes = new byte[8];
+            byte[] saltBytes = new byte[32];
             using (var rand = RandomNumberGenerator.Create())
             {
                 rand.GetBytes(saltBytes);

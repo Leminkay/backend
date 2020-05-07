@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AUDIuBozhVfrCpH99kfockQv7PqGDFMX7RxMyiXSoG3Dz3Qk+PciIEIyh21F9YXPVkLd+xRgEjKRAhyt4Q2mtA==",
+  "dgSpecHash": "6iK202ExWRJXGvHcEAHoBQV9j2CWMn+/SAozPF2shNHA7LdJwY8ZbNdoTOvk/x1zBTdGtGd22RQk9Z7EcBqphg==",
   "success": true,
-  "projectFilePath": "E:\\proga\\backende\\BankApp\\BankApp.csproj",
+  "projectFilePath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\BankApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lemin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\lemin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",

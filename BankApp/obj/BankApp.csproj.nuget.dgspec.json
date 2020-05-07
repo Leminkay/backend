@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\proga\\backende\\BankApp\\BankApp.csproj": {}
+    "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\BankApp.csproj": {}
   },
   "projects": {
-    "E:\\proga\\backende\\BankApp\\BankApp.csproj": {
+    "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\BankApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\proga\\backende\\BankApp\\BankApp.csproj",
+        "projectUniqueName": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\BankApp.csproj",
         "projectName": "BankApp",
-        "projectPath": "E:\\proga\\backende\\BankApp\\BankApp.csproj",
+        "projectPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\BankApp.csproj",
         "packagesPath": "C:\\Users\\lemin\\.nuget\\packages\\",
-        "outputPath": "E:\\proga\\backende\\BankApp\\obj\\",
+        "outputPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\BankApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj": {
-                "projectPath": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj"
+              "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj": {
+                "projectPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj": {
+    "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj",
+        "projectUniqueName": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj",
         "projectName": "Auth",
-        "projectPath": "E:\\proga\\backende\\Logic\\Auth\\Auth.csproj",
+        "projectPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\Auth.csproj",
         "packagesPath": "C:\\Users\\lemin\\.nuget\\packages\\",
-        "outputPath": "E:\\proga\\backende\\Logic\\Auth\\obj\\",
+        "outputPath": "C:\\Users\\lemin\\OneDrive\\Рабочий стол\\final\\Logic\\Auth\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lemin\\AppData\\Roaming\\NuGet\\NuGet.Config",

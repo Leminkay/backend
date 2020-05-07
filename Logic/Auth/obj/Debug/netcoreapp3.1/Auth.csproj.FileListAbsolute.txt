@@ -7,3 +7,12 @@ E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfoInputs.cac
 E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfo.cs
 E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.dll
 E:\proga\backende\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.pdb
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.deps.json
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.dll
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\bin\Debug\netcoreapp3.1\Auth.pdb
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.csprojAssemblyReference.cache
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.csproj.CoreCompileInputs.cache
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfoInputs.cache
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.AssemblyInfo.cs
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.dll
+C:\Users\lemin\OneDrive\Рабочий стол\final\Logic\Auth\obj\Debug\netcoreapp3.1\Auth.pdb

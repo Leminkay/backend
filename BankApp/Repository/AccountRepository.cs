@@ -41,13 +41,29 @@ namespace BankApp.Repository
                 dbConnection.Query("UPDATE public.accounts SET money = @Money , status = @Status, accountid= @AccountId, email =@Email", item);
             }
         }
-
-        public Users FindByID(int id)
+        public void UpdateStatus(string id, string status)
         {
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                return dbConnection.Query<Users>("SELECT * FROM public.users WHERE id = @Id", new { Id = id }).FirstOrDefault();
+                dbConnection.Query("UPDATE public.accounts SET status = @Status WHERE accountid= @Id", new{ Id = id, Status = status});
+            }
+        }
+        public void UpdateMoney(string id, double value)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                dbConnection.Open();
+                dbConnection.Query("UPDATE public.accounts SET money = money + @Value WHERE accountid= @Id", new{ Id = id, Value = value});
+            }
+        }
+
+        public Accounts FindByAccountId(string id)
+        {
+            using (IDbConnection dbConnection = Connection)
+            {
+                dbConnection.Open();
+                return dbConnection.Query<Accounts>("SELECT * FROM public.accounts WHERE accountid = @Id", new { Id = id }).FirstOrDefault();
             }
         }
 
@@ -60,12 +76,12 @@ namespace BankApp.Repository
             }
         }
 
-        public IEnumerable<Users> FindALL()
+        public IEnumerable<Accounts> FindALL()
         {
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                return dbConnection.Query<Users>("SELECT * FROM public.accounts");
+                return dbConnection.Query<Accounts>("SELECT * FROM public.accounts");
             }
         }
     }

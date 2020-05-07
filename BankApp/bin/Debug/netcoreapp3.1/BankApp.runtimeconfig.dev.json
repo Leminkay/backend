@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/kal/.dotnet/store/|arch|/|tfm|",
-      "/home/kal/.nuget/packages"
+      "C:\\Users\\lemin\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lemin\\.nuget\\packages"
     ]
   }
 }
