@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Web.Http.ModelBinding;
 using BankApp.DTO;
 using BankApp.Extensions;
@@ -34,22 +37,8 @@ namespace BankApp.Controllers
 
         [Route("api/[controller]/newaccount")]
         [HttpPost]
-        public IActionResult NewAccount([FromBody] NewAccCredentials request)
+        public IActionResult NewAccount()
         {
-            if (!ModelState.IsValid)
-            {
-                return  new BadRequestObjectResult(new
-                {
-                    Errors =  ModelState.Values.SelectMany(x => x.Errors.Select(xx => xx.ErrorMessage))
-                });
-            }
-            if (HttpContext.GetUser() != request.Email)
-            {
-                return new BadRequestObjectResult(new
-                {
-                    Errors =  "No access"
-                });
-            }
 
             string accountid ;
             do
@@ -60,7 +49,7 @@ namespace BankApp.Controllers
             var newAcc = new Accounts
             {
                 AccountId = accountid,
-                Email = request.Email,
+                Email = HttpContext.GetUser(),
                 Money = 0,
                 Status = "open"
             };
@@ -208,6 +197,20 @@ namespace BankApp.Controllers
             {
                 Message = "success"
             });
+        }
+        [Route("api/[controller]/accounts")]
+        public IActionResult UserAccounts()
+        {
+            
+            List <Accounts> allAccounts = accountRepository.FindByEmail(HttpContext.GetUser()).ToList();
+            
+            
+   
+            return new OkObjectResult(new
+            {
+                accounts = allAccounts.Select(x => x.AccountId)
+            });
+              
         }
     }
 }

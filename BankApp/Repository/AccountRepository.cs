@@ -72,7 +72,7 @@ namespace BankApp.Repository
             using (IDbConnection dbConnection = Connection)
             {
                 dbConnection.Open();
-                return dbConnection.Query<Accounts>("SELECT * FROM public.accounts WHERE email = @Email", new { Email = email });
+                return dbConnection.Query<Accounts>("SELECT * FROM public.accounts WHERE email = @Email AND status = 'open'", new { Email = email });
             }
         }
 
